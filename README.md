@@ -1,4 +1,4 @@
-# Smart-ANPR-System
+# Smart ANPR System
 University Project For Internet of Things (IoT) &amp; Advanced Digital Signal Processing (ADSB)
 
 ## Table of Contents
