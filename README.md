@@ -4,6 +4,7 @@ University Project For Internet of Things (IoT) &amp; Advanced Digital Signal Pr
 ## Table of Contents
 * [Introduction](#introduction)
 * [Project Requirements](#project-requirements)
+* [License](#license)
 <!-- * [License](#license) -->
 
 ## Introduction
