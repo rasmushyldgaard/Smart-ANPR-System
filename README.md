@@ -6,8 +6,9 @@ Made by Rasmus Hyldgaard and Jørgen Moesgaard Jørgensen
 ## Table of Contents
 * [Introduction](#introduction)
 * [Project Requirements](#project-requirements)
+* [Functional Requirements](##functional-requirements)
+* [Non-Functional Requirements](##non-functional-requirements)
 * [Hardware](#hardware)
-* [To-Do List](#to-do list)
 * [License](#license)
 <!-- * [License](#license) -->
 
@@ -26,8 +27,6 @@ The requirements are separated into two categories: "Functional" and "Non-Functi
 ### Non-Functional Requirements
 
 ## Hardware
-
-## To-Do List
 
 ## License
 MIT License
