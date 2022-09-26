@@ -7,26 +7,27 @@ Made by Rasmus Hyldgaard and Jørgen Moesgaard Jørgensen
 * [Introduction](#introduction)
 * [Project Requirements](#project-requirements)
 * [Hardware](#hardware)
+* [To-Do List](#to-do list)
 * [License](#license)
 <!-- * [License](#license) -->
 
 ## Introduction
-The purpose of an ANPR (Automatic Number Plate Recognition) System is to take an image of a car and use image processing techniques to separate
-the license plate from the car itself, and process each character individually with an algorithm. The system is then capable of ensuring whether a car is allowed entry or not based on their license plate. The idea behind our project is to design and implement a small embedded ANPR prototype system, using a OV7675 Camera as sensor and
-a servo as actuator. The "Smart" part of our project is to introduce IoT into the system and use a webservice in the cloud (QuestDB in this case) to access information.
-
-
-
+The purpose of an ANPR (Automatic Number Plate Recognition) System, is to capture an image of a car and use image processing techniques to separate
+the license plate from the car itself, and then process each character individually with an algorithm. The system is thus capable of ensuring whether a car is allowed entry or not, based on their license plate. The idea behind our project is to design and implement a small embedded ANPR prototype system, using a OV7675 Camera as sensor and a servo as actuator. The "Smart" part of our project is to introduce IoT by using a webservice in the cloud (QuestDB in this case) to access information. Registered license plates will be stored in QuestDB and the system will compare these to the ones being processed. The illustration below serves as a graphical overview of the project.
 
 
 
 ## Project Requirements
+The project is divided into several requirements to make sure that it fulfills its systematic purposes and abides by the guidelines of the assignment at hand.
+The requirements are separated into two categories: "Functional" and "Non-Functional" requirements. The "Functional" requirements are the "must have" requirements of the system, they describe what the system does. The "Non-Functional" requirements are the "desirable" requirements of the system, they describe how the system works.
 
 ### Functional Requirements
 
 ### Non-Functional Requirements
 
 ## Hardware
+
+## To-Do List
 
 ## License
 MIT License
