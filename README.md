@@ -6,16 +6,27 @@ Made by Rasmus Hyldgaard and Jørgen Moesgaard Jørgensen
 ## Table of Contents
 * [Introduction](#introduction)
 * [Project Requirements](#project-requirements)
+* [Hardware](#hardware)
 * [License](#license)
 <!-- * [License](#license) -->
 
 ## Introduction
+The purpose of an ANPR (Automatic Number Plate Recognition) System is to take an image of a car and use image processing techniques to separate
+the license plate from the car itself, and process each character individually with an algorithm. The system is then capable of ensuring whether a car is allowed entry or not based on their license plate. The idea behind our project is to design and implement a small embedded ANPR prototype system, using a OV7675 Camera as sensor and
+a servo as actuator. The "Smart" part of our project is to introduce IoT into the system and use a webservice in the cloud (QuestDB in this case) to access information.
+
+
+
+
+
 
 ## Project Requirements
 
 ### Functional Requirements
 
 ### Non-Functional Requirements
+
+## Hardware
 
 ## License
 MIT License
