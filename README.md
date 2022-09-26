@@ -12,26 +12,33 @@ Made by Rasmus Hyldgaard and Jørgen Moesgaard Jørgensen
 <!-- * [License](#license) -->
 
 ## Introduction
-The purpose of an ANPR (Automatic Number Plate Recognition) System, is to capture an image of a car and use image processing techniques to separate
+The purpose of an ANPR (Automatic Number Plate Recognition) System is to capture an image of a car and use image processing techniques to separate
 the license plate from the car itself, and then process each character individually with an algorithm. The system is thus capable of ensuring whether a car is allowed entry or not, based on their license plate. The idea behind our project is to design and implement a small embedded ANPR prototype system, using a OV7675 Camera as sensor and a servo as actuator. The "Smart" part of our project is to introduce IoT by using a webservice in the cloud (QuestDB in this case) to access information. Registered license plates will be stored in QuestDB and the system will compare these to the ones being processed. The illustration below serves as a graphical overview of the project.
 
 ![ANPR System](./img/anpr.PNG)
 
 ## Project Requirements
 The project is divided into several requirements to be certain that it fulfills its systematic purposes and abides by the guidelines of the assignment at hand.
-The requirements are separated into two categories: "Functional" and "Non-Functional" requirements. The "Functional" requirements are the "must have" requirements of the system, they describe what the system does. The "Non-Functional" requirements are the "desirable" requirements of the system, they describe how the system works. The list of requirements will be changed/expanded along with the development of the project.
+The requirements are separated into two categories: "Functional" and "Non-Functional" requirements. The "Functional" requirements are the "must have" requirements of the system, they describe what the system does. The "Non-Functional" requirements are the "desirable" requirements of the system, they describe how the system works. The list of requirements may be changed/expanded along with the development of the project.
 
 ### Functional Requirements
-1. The system shall wake up from a triggered event and capture an image.
-2. The system must be able to process the image and read the license plate.
-3. The system 
+1. The system shall establish an I2C connection with the camera.
+2. The system shall wake up from a triggered event and capture an image.
+3. The system shall process the image and read the license plate.
+4. The system shall establish a webhook with a QuestDB database and retrieve data.
+5. The system shall compare processed license plate with a registered license plate from database.
+6. The system shall control an actuator when entry is permitted.
 
 ### Non-Functional Requirements
+1. The system can be in a Low Power Mode when it's on standby.
+2. The system can compare with several registered license plates from the database.
+3. The system may use Machine Learning to identify the country of origin for the captured license plate.
 
 ## Hardware
 The hardware used in this project is Particle Argon Wi-Fi Development Board, 0.3MP: OV7675 Camera and 9g Micro Servo DF9GMS.
 
 ## To-Do List
+TBD
 
 ## License
 MIT License
