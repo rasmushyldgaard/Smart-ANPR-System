@@ -19,10 +19,12 @@ the license plate from the car itself, and then process each character individua
 
 ## Project Requirements
 The project is divided into several requirements to be certain that it fulfills its systematic purposes and abides by the guidelines of the assignment at hand.
-The requirements are separated into two categories: "Functional" and "Non-Functional" requirements. The "Functional" requirements are the "must have" requirements of the system, they describe what the system does. The "Non-Functional" requirements are the "desirable" requirements of the system, they describe how the system works.
+The requirements are separated into two categories: "Functional" and "Non-Functional" requirements. The "Functional" requirements are the "must have" requirements of the system, they describe what the system does. The "Non-Functional" requirements are the "desirable" requirements of the system, they describe how the system works. The list of requirements will be changed/expanded along with the development of the project.
 
 ### Functional Requirements
-1. 
+1. The system shall wake up from a triggered event and capture an image.
+2. The system must be able to process the image and read the license plate.
+3. The system 
 
 ### Non-Functional Requirements
 
