@@ -1,7 +1,9 @@
 # Smart ANPR System
 University Project For Internet of Things (IoT) &amp; Advanced Digital Signal Processing (ADSB)
 
-Made by Rasmus Hyldgaard and Jørgen Moesgaard Jørgensen
+Authors:
+Rasmus Hyldgaard
+Jørgen Moesgaard Jørgensen
 
 ## Table of Contents
 * [Introduction](#introduction)
