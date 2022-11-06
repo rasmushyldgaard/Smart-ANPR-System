@@ -43,6 +43,7 @@ The hardware used in this project is Particle Argon Wi-Fi Development Board, San
 - Capture an image of a car with the camera and process it with Get_Numberplate function and lprNet. (**DONE**)
 - Create a ThingSpeak Channel and write the read license plate to ThingSpeak Channel from MATLAB. (**DONE**)
 - Create a QuestDB database and store registered license plates. (**DONE**)
+- Pull data from QuestDB database and read it on Particle Argon. (**DONE**)
 - Read from ThingSpeak Channel with Particle Argon and print the string to console. (**DONE**)
 - Make GUI Application in MATLAB to smoothen process.
 - Encrypt data between MATLAB and Argon, and data between Argon and QuestDB.
