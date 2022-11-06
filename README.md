@@ -13,7 +13,7 @@ Made by Rasmus Hyldgaard and Jørgen Moesgaard Jørgensen
 
 ## Introduction
 The purpose of an ANPR (Automatic Number Plate Recognition) System is to capture an image of a car and use image processing techniques to separate
-the license plate from the car itself, and then process each character individually with an algorithm. The system is thus capable of ensuring whether a car is allowed entry or not, based on their license plate. The idea behind our project is to design and implement a small embedded ANPR prototype system, using a OV7675 Camera as sensor and a servo as actuator. The "Smart" part of our project is to introduce IoT by using a webservice in the cloud (QuestDB in this case) to access information. Registered license plates will be stored in QuestDB and the system will compare these to the ones being processed. The illustration below serves as a graphical overview of the project.
+the license plate from the car itself, and then process each character individually with an algorithm. The system is thus capable of ensuring whether a car is allowed entry or not, based on their license plate. The idea behind our project is to design and implement a small embedded ANPR prototype system, using a Sandberg USB Webcam as sensor and a servo as actuator. The "Smart" part of our project is to introduce IoT by using a webservice in the cloud (QuestDB in this case) to access information and ThingSpeak to communicate wirelessly between PC and the embedded Argon processor. Registered license plates will be stored in QuestDB and the system will compare these to the ones being processed. The illustration below serves as a graphical overview of the project.
 
 ![ANPR System](./img/anpr4.PNG)
 
