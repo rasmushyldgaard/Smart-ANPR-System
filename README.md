@@ -22,7 +22,7 @@ The project is divided into several requirements to be certain that it fulfills 
 The requirements are separated into two categories: "Functional" and "Non-Functional" requirements. The "Functional" requirements are the "must have" requirements of the system, they describe what the system does. The "Non-Functional" requirements are the "desirable" requirements of the system, they describe how the system works. The list of requirements may be changed/expanded along with the development of the project.
 
 ### Functional Requirements
-1. The system shall establish an I2C connection with the camera.
+1. The system shall establish a connection between the camera and MATLAB.
 2. The system shall wake up from a triggered event and capture an image.
 3. The system shall process the image and read the license plate.
 4. The system shall establish a webhook with a QuestDB database and retrieve data.
@@ -33,12 +33,21 @@ The requirements are separated into two categories: "Functional" and "Non-Functi
 1. The system can be in a Low Power Mode when it's on standby.
 2. The system can compare with several registered license plates from the database.
 3. The system may use Machine Learning to identify the country of origin for the captured license plate.
+4. The system may encrypt the data being sent and read through its communication channels.
 
 ## Hardware
 The hardware used in this project is Particle Argon Wi-Fi Development Board, 0.3MP: OV7675 Camera and 9g Micro Servo DF9GMS.
 
 ## To-Do List
-TBD
+- Establish a connection between Sandberg USB Webcam PRO and MATLAB on Laptop. (**DONE**)
+- Capture an image of a car with Sandberg USB Webcam PRO and process it with Get_Numberplate function and lprNet. (**DONE**)
+- Create a ThingSpeak Channel and write the read license plate to ThingSpeak Channel from MATLAB. (**DONE**)
+- Create a QuestDB database and store registered license plates. (**DONE**)
+- Read from ThingSpeak Channel with Particle Argon and print the string to console. (**DONE**)
+- Make GUI Application in MATLAB to smoothen process.
+- Encrypt data between MATLAB and Argon, and data between Argon and QuestDB.
+- Put Argon in Low Power Mode when it's on standby.
+- Finish up software on Argon. 
 
 ## License
 MIT License
