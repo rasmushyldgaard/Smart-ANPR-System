@@ -25,9 +25,10 @@ The requirements are separated into two categories: "Functional" and "Non-Functi
 1. The system shall establish a connection between the camera and MATLAB.
 2. The system shall wake up from a triggered event and capture an image.
 3. The system shall process the image and read the license plate.
-4. The system shall establish a webhook with a QuestDB database and retrieve data.
-5. The system shall compare processed license plate with a registered license plate from database.
-6. The system shall control an actuator when entry is permitted.
+4. The system shall send and receive license plates through a ThingSpeak channel.
+5. The system shall establish a webhook with a QuestDB database.
+6. The system shall compare processed license plate with a registered license plate from database.
+7. The system shall control an actuator when entry is permitted.
 
 ### Non-Functional Requirements
 1. The system can be in a Low Power Mode when it's on standby.
