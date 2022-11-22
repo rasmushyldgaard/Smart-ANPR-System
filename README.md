@@ -33,7 +33,7 @@ The requirements are separated into two categories: "Functional" and "Non-Functi
 ### Non-Functional Requirements
 1. The system can compare with several registered license plates from the QuestDB database.
 2. The system can add a log to QuestDB about which license plates were granted access or no access. 
-3. The system may use Machine Learning to identify the country of origin for the captured license plate.
+3. The system may use machine learning to identify the country of origin for the captured license plate.
 4. The system can be in a Low Power Mode when it's on standby.
 5. The system may encrypt the data being sent and read through its communication channels.
 
