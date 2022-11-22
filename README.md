@@ -31,7 +31,7 @@ The requirements are separated into two categories: "Functional" and "Non-Functi
 7. The system shall control an actuator when entry is permitted.
 
 ### Non-Functional Requirements
-1. The system can compare with several registered license plates from the database.
+1. The system can compare with several registered license plates from the QuestDB database.
 2. The system can add a log to QuestDB about which license plates were granted access or no access. 
 3. The system may use Machine Learning to identify the country of origin for the captured license plate.
 4. The system can be in a Low Power Mode when it's on standby.
