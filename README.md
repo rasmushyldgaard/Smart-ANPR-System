@@ -48,8 +48,8 @@ The hardware used in this project is Particle Argon Wi-Fi Development Board, San
 - Pull data from QuestDB database and read it on Particle Argon. (**DONE**)
 - Read from ThingSpeak Channel with Particle Argon and print the string to console. (**DONE**)
 - Make GUI Application in MATLAB to smoothen process. (**DONE**)
-- Encrypt data between MATLAB and Argon, and data between Argon and QuestDB.
-- Put Argon in Low Power Mode when it's on standby.
+- Encrypt data between MATLAB and Argon, and data between Argon and QuestDB. (**DONE**)
+- Put Argon in Low Power Mode when it's on standby. (**DONE**)
 - Finish up software on Argon. 
 
 ## License
