@@ -50,7 +50,7 @@ The hardware used in this project is Particle Argon Wi-Fi Development Board, San
 - Make GUI Application in MATLAB to smoothen process. (**DONE**)
 - Encrypt data between MATLAB and Argon, and data between Argon and QuestDB. (**DONE**)
 - Put Argon in Low Power Mode when it's on standby. (**DONE**)
-- Finish up software on Argon. 
+- Finish up software on Argon. (**DONE**)
 
 ## License
 MIT License
