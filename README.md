@@ -3,6 +3,8 @@ University Project For Internet of Things (IoT) &amp; Advanced Digital Signal Pr
 
 Made by Rasmus Hyldgaard and Jørgen Moesgaard Jørgensen
 
+[Demo Video](https://www.youtube.com/shorts/0ouIuk9_joQ)
+
 ## Table of Contents
 * [Introduction](#introduction)
 * [Project Requirements](#project-requirements)
