@@ -23,7 +23,7 @@
 //ThingSpeak Client
 TCPClient client;
 unsigned long myChannelNumber = 1917719;        //Thingspeak channel for Numberplate
-const char * myReadAPIKey = "HOR017706PI1GMI3"; //API key to read from. MATLAB writes to channel, argon reads. 
+const char * myReadAPIKey = ""; //API key to read from. MATLAB writes to channel, argon reads. 
 String ThingSpeakString = "";                   //String for the numberplate that MATLAB found on image
 String createdAt ="";                           //When the numberplate was posted to ThingSpeak
 
