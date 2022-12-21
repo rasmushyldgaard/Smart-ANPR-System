@@ -230,7 +230,7 @@ try
     cryptoTxt = Crypto(lpTxt);
 
     % write to thingspeak with cryptoTxt and time
-    thingSpeakWrite(1917719, [cryptoTxt, time], 'WriteKey', 'L6B3SZFZN199OH8Z');
+    thingSpeakWrite(1917719, [cryptoTxt, time], 'WriteKey', '');
     clear argon_ble;
     argon_ble = ble('IoT-ANPR'); % connect to argon BLE to wakeup
 catch
