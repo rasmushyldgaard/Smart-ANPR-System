@@ -10,6 +10,7 @@ Made by Rasmus Hyldgaard and Jørgen Moesgaard Jørgensen
 * [Project Requirements](#project-requirements)
 * [Hardware](#hardware)
 * [To-Do List](#to-do-list)
+* [Results](#results)
 * [License](#license)
 <!-- * [License](#license) -->
 
@@ -18,6 +19,8 @@ The purpose of an ANPR (Automatic Number Plate Recognition) System is to capture
 the license plate from the car itself, and then process each character individually with an algorithm. The system is thus capable of ensuring whether a car is allowed entry or not, based on their license plate. The idea behind our project is to design and implement a small embedded ANPR prototype system, using a Sandberg USB Webcam as sensor and a servo as actuator. The "Smart" part of our project is to introduce IoT by using a webservice in the cloud (QuestDB in this case) to access information and ThingSpeak to communicate wirelessly between PC and the embedded Argon processor. Registered license plates will be stored in QuestDB and the system will compare these to the ones being processed. The illustration below serves as a graphical overview of the project.
 
 ![ANPR System](./img/smart_anpr_system.PNG)
+
+![ANPR_IOT](./img/iot_anpr_system.png)
 
 ## Project Requirements
 The project is divided into several requirements to be certain that it fulfills its systematic purposes and abides by the guidelines of the assignment at hand.
@@ -53,6 +56,19 @@ The hardware used in this project is Particle Argon Wi-Fi Development Board, San
 - Encrypt data between MATLAB and Argon, and data between Argon and QuestDB. (**DONE**)
 - Put Argon in Low Power Mode when it's on standby. (**DONE**)
 - Finish up software on Argon. (**DONE**)
+
+## Results
+This section contains some images of the results that our system managed to produce.
+
+### License Plate Detection & Classification in MATLAB
+![resultat3](./img/resultat3.PNG)
+
+![result5](./img/resultat5.PNG)
+
+## License Plate Real-Time GUI Application
+As part of the Smart ANPR System, we applied our detection & classification system in a GUI application, using the Sandberg Webcam to capture, detect and classify license plates in real-time.
+
+![anpr_resultat](./img/anpr_resultat.png)
 
 ## License
 MIT License
