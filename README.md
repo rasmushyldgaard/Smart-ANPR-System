@@ -20,6 +20,7 @@ the license plate from the car itself, and then process each character individua
 
 ![ANPR System](./img/smart_anpr_system.PNG)
 
+### MATLAB Detection & Classification
 ![ANPR_IOT](./img/iot_anpr_system.png)
 
 ## Project Requirements
