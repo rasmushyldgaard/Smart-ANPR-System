@@ -66,7 +66,7 @@ This section contains some images of the results that our system managed to prod
 
 ![result5](./img/resultat5.PNG)
 
-### License Plate Real-Time GUI Application
+### License Plate Real-Time Detection System
 As part of the Smart ANPR System, we applied our detection & classification system in a GUI application, using the Sandberg Webcam to capture, detect and classify license plates in real-time.
 
 ![anpr_resultat](./img/anpr_resultat.png)
